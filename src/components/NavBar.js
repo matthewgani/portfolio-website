@@ -1,5 +1,8 @@
 import { useState } from 'react'
-import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai'
+import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import { HiOutlineMail } from 'react-icons/hi'
+import {BsFillPersonLinesFill} from 'react-icons/bs'
+import Logo from '../assets/logo.png'
 // use ai pretext 
 
 
@@ -11,28 +14,63 @@ const NavBar = () => {
   }
 
   return (
-    <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
-      <h1 className="w-full text-3xl font-bold text-[#00df9a]">REACT.</h1>
+    <div className= "fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300">
+      <div>
+        <img src={Logo} alt="logo" style={{width: '50px'}} />
+      </div>
+
+      {/*anything above median is displayed */}
+
       <ul className='hidden md:flex'>
-        <li className="p-4">Home</li>
-        <li className="p-4">Projects</li>
-        <li className="p-4">Blogs</li>
-        <li className="p-4">About</li>
+        <li>Home</li>
+        <li>About</li>
+        <li>Skills</li>
+        <li>Work</li>
+        <li>Contact</li>
       </ul>
-      {/** only display hamburger when it hits the 768 breakpoint */}
-      <div onClick={handleNav} className='block md:hidden'>
-        {!nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}/>}
+
+
+      {/**hamburger  with z index 10*/}
+      <div onClick={handleNav} className='md:hidden z-10'>
+        {!nav ? <FaBars /> : <FaTimes />}
       </div>
-      {/**mobile menu */}
-      <div className={!nav ? 'fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900 bg-[#000300] ease-in-out duration-500' : 'fixed left-[-100%]'}>
-      <h1 className="w-full text-3xl font-bold text-[#00df9a] m-4">REACT.</h1>
-        <ul className='uppercase p-4'>
-          <li className="p-4 border-b border-gray-600">Home</li>
-          <li className="p-4 border-b border-gray-600">Projects</li>
-          <li className="p-4 border-b border-gray-600">Blogs</li>
-          <li className="p-4">About</li>
+
+      {/* mobile menu */}
+      <ul className= {!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
+        <li className='py-6 text-4xl'>Home</li>
+        <li className='py-6 text-4xl'>About</li>
+        <li className='py-6 text-4xl'>Skills</li>
+        <li className='py-6 text-4xl'>Work</li>
+        <li className='py-6 text-4xl'>Contact</li>
+      </ul>
+
+      {/* social icons, only shown after large 1024 breakpoint*/}
+      <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
+        <ul>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
+            <a className='flex justify-between items-center w-full text-gray-300'
+             href='/'>LinkedIn <FaLinkedin size={30} />
+             </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
+            <a className='flex justify-between items-center w-full text-gray-300'
+             href='/'>GitHub <FaGithub size={30} />
+             </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
+            <a className='flex justify-between items-center w-full text-gray-300'
+             href='/'>Email <HiOutlineMail size={30} />
+             </a>
+          </li>
+          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
+            <a className='flex justify-between items-center w-full text-gray-300'
+             href='/'>Resume <BsFillPersonLinesFill size={30} />
+             </a>
+          </li>
         </ul>
+
       </div>
+
 
     </div>
   )
