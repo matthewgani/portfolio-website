@@ -1,0 +1,15 @@
+installed tailwind
+installed react icons for handburger
+react scroll 
+
+
+not done:
+hooking up links to socials on the side bar
+putting real portfolio items in and skills logos
+maybe add night mode if its easy...
+canva logo
+insert my own data and re read whole website
+change some section names
+maybe change to react router if i wanna show blogs
+    Please is there a way to use both react-scroll and react-router-don on one project cause I’m trying to have an info button on the work session which will lead to another page to tell a little about the projects but it isn’t working
+    Sure can!  Just set your css to html {scroll-behavior: smooth}. Then when you link you would do something like this <a href=‘/#contact’.
