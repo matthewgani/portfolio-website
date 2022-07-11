@@ -28,8 +28,13 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="about" smooth={true}  duration={500}>
-            About
+          <Link to="education" smooth={true}  duration={500}>
+            Education
+          </Link>
+        </li>
+        <li>
+          <Link to="work" smooth={true}  duration={500}>
+            Work
           </Link>
         </li>
         <li>
@@ -38,8 +43,8 @@ const NavBar = () => {
           </Link>
         </li>
         <li>
-          <Link to="work" smooth={true}  duration={500}>
-            Work
+          <Link to="projects" smooth={true}  duration={500}>
+            Projects
           </Link>
         </li>
         <li>
@@ -63,8 +68,13 @@ const NavBar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          <Link onClick={handleNav} to="about" smooth={true}  duration={500}>
-            About
+          <Link onClick={handleNav} to="education" smooth={true}  duration={500}>
+            Education
+          </Link>
+        </li>
+        <li className='py-6 text-4xl'>
+          <Link onClick={handleNav} to="work" smooth={true}  duration={500}>
+            Work
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -73,8 +83,8 @@ const NavBar = () => {
           </Link>
         </li>
         <li className='py-6 text-4xl'>
-          <Link onClick={handleNav} to="work" smooth={true}  duration={500}>
-            Work
+          <Link onClick={handleNav} to="projects" smooth={true}  duration={500}>
+            Projects
           </Link>
         </li>
         <li className='py-6 text-4xl'>
@@ -89,22 +99,22 @@ const NavBar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-gray-300'
-             href='/'>LinkedIn <FaLinkedin size={30} />
+             href="https://www.linkedin.com/in/matthewgani/" target="_blank" rel="noreferrer">LinkedIn <FaLinkedin size={30} />
              </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-             href='/'>GitHub <FaGithub size={30} />
+             href="https://github.com/matthewgani" target="_blank" rel="noreferrer">GitHub <FaGithub size={30} />
              </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-             href='/'>Email <HiOutlineMail size={30} />
+             href="mailto: matthewgani2@gmail.com">Email <HiOutlineMail size={30} />
              </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-             href='/'>Resume <BsFillPersonLinesFill size={30} />
+             href="../assets/MatthewGani_Resume.pdf" download>Resume <BsFillPersonLinesFill size={30} />
              </a>
           </li>
         </ul>

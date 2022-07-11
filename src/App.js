@@ -1,37 +1,26 @@
-import {
-  Routes, Route, Link
-} from "react-router-dom"
+// import {
+//   Routes, Route, Link
+// } from "react-router-dom"
 
-import Blogs from "./components/Blogs"
-import Projects from "./components/Projects"
+// import Blogs from "./components/Blogs"
 import Home from "./components/Home"
 import NavBar from "./components/NavBar"
-import About from "./components/About"
+import Education from "./components/Education"
 import Skills from "./components/Skills"
-import Work from "./components/Work"
+import Projects from "./components/Projects"
 import Contact from "./components/Contact"
+import Work from "./components/Work"
 
 const App = () => {
-
-  const padding = {
-    padding: 5
-  }
-
-  const footerPadding = {
-    position: "fixed",
-    left: 0,
-    bottom: 0,
-    right: 0,
-    backgroundColor: "red"
-  }
 
   return (
     <div>
       <NavBar/>
       <Home />
-      <About />
-      <Skills />
+      <Education />
       <Work />
+      <Skills />
+      <Projects />
       <Contact />
     </div>
   )
