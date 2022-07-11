@@ -15,6 +15,11 @@
   }
 }
 
+.clipped {
+  clip-path: circle();
+  height: auto;
+  z-index: 1;
+}
 
 .content-div {
   background-repeat: no-repeat;

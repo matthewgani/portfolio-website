@@ -26,7 +26,7 @@ const Work = () => {
               Utilized AWS tools to migrate data from Oracle Database to AWS RDS Database
               </li>
               <li>
-              Identified and wrote technical documentation of changes to replace enterprise application with AWS cloud system
+              Identified and wrote technical documentation for changes to replace enterprise application with AWS cloud system
               </li>
               <li>
               Built a Spring Boot microservice that listens to AWS Kinesis stream and pushes events to

@@ -29,7 +29,11 @@ const Education = () => {
                 GPA/CAP: 4.72/5.0
               </li>
               <li>
-                Deans' List (AY21/22 Semester 2)
+              Deans' List 
+                <a href='https://credentials.nus.edu.sg/eaeda8aa-02d5-4b41-bcec-6bf0c03fd3bb'
+                target="_blank" rel="noreferrer" className='underline text-blue-600'>
+                (AY21/22 Semester 2)
+                </a>
               </li>
               <li>
                 Marketing Head for the ECE Club AY20/21 
@@ -39,7 +43,7 @@ const Education = () => {
           <div>
             <div className="text-center text-3xl ">
               <p>
-              Relevant modules
+              Core modules
               </p>
             </div>
             <ul className="text-center">
@@ -60,6 +64,9 @@ const Education = () => {
               </li>
               <li>
                 Computer Engineering Capstone Project
+                <a className='underline text-blue-600'href='https://credentials.nus.edu.sg/b673f0c4-8e70-4ce1-b842-954579d0ab5c' target="_blank" rel="noreferrer">
+                   (Top Student)
+                  </a>
               </li>
             </ul>
           </div>
