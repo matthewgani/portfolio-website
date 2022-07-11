@@ -15,3 +15,6 @@ change color scheme
 maybe change to react router if i wanna show blogs
     Please is there a way to use both react-scroll and react-router-don on one project cause I’m trying to have an info button on the work session which will lead to another page to tell a little about the projects but it isn’t working
     Sure can!  Just set your css to html {scroll-behavior: smooth}. Then when you link you would do something like this <a href=‘/#contact’.
+
+
+jump to skills and projects not working well, i think bc i made skills div h-fit

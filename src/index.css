@@ -15,10 +15,17 @@
   }
 }
 
+.icon {
+  height:150px;
+  width: auto;
+}
+
+
 .clipped {
   clip-path: circle();
   height: auto;
   z-index: 1;
+  box-shadow: 50px 50px;
 }
 
 .content-div {
