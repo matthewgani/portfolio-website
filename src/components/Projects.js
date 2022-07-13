@@ -4,6 +4,8 @@ import calendarManager from '../assets/calendarManager.jpg'
 import capstone from '../assets/capstone.jpeg'
 import scheduler from '../assets/scheduler.png'
 import ee2026 from '../assets/ee2026.jpg'
+import cg2271 from '../assets/cg2271.jpg'
+import cg3207 from '../assets/cg3207.jpg'
 
 const Projects = () => {
 
@@ -50,7 +52,7 @@ components
           </div>
 
           {/* cg3207 */}
-          <div style={{backgroundImage: `url(${realEstate})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div style={{backgroundImage: `url(${cg3207})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100 flex flex-col'>
@@ -72,6 +74,33 @@ components
                 <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-sm'>demo</button></a>
                 <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-sm'>code</button></a>
               </div> */}
+            </div>
+          </div>
+
+          {/* cg2271 */}
+          <div style={{backgroundImage: `url(${cg2271})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+            
+            {/* hover effects */}
+            <div className='opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center'>
+              <span className='text-center font-bold text-white tracking-wider pt-4'>
+                Keil RTX RTOS RC Car
+              </span>
+              <ul className='text-sm pt-2 pl-6 list-disc'>
+                <li>
+                Worked in a group of 3 to create a Remote Controlled car controlled by a mobile app 
+                </li>
+                <li>
+                Wrote code in C language on the FRDM-KL25Z microcontroller 
+                </li>
+                <li>
+                Utilized semaphores and event flags for task synchronization                </li>
+                <li>
+                Configured multithreading to manage car movement, music and LED patterns
+                </li>
+              </ul>
+              <div className=' text-center'>
+                <a href="https://www.youtube.com/watch?v=iLDavXZqZ5o" target="_blank" rel="noreferrer"> <button className='text-center rounded-lg px-4 pt-0 pb-0 m-2 bg-white text-gray-700 font-bold text-xs'>demo</button></a>
+              </div>
             </div>
           </div>
 
@@ -145,7 +174,7 @@ team of 2
               <span className='text-center font-bold text-white tracking-wider pt-4'>
                 FPGA Entertainment System
               </span>
-              <ul className='text-sm pt-4 px-6 list-disc'>
+              <ul className='text-sm pt-2 pl-6 list-disc'>
                 <li>
                 Built a Sound Display and Entertainment System in a team of 2 using Verilog
                 </li>
@@ -166,32 +195,7 @@ and vary audio volume
             </div>
           </div>
 
-          {/* cg2271 */}
-          <div style={{backgroundImage: `url(${realEstate})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
-            
-            {/* hover effects */}
-            <div className='opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center'>
-              <span className='text-center font-bold text-white tracking-wider pt-4'>
-                Keil RTX RTOS RC Car
-              </span>
-              <ul className='text-sm pt-2 pl-6 list-disc'>
-                <li>
-                Worked in a group of 3 to create a Remote Controlled car controlled by a mobile app 
-                </li>
-                <li>
-                Wrote code in C language on the FRDM-KL25Z microcontroller 
-                </li>
-                <li>
-                Utilized semaphores and event flags for task synchronization                </li>
-                <li>
-                Configured multithreading to manage car movement, music and LED patterns
-                </li>
-              </ul>
-              <div className=' text-center'>
-                <a href="https://www.youtube.com/watch?v=iLDavXZqZ5o" target="_blank" rel="noreferrer"> <button className='text-center rounded-lg px-4 pt-0 pb-0 m-2 bg-white text-gray-700 font-bold text-xs'>demo</button></a>
-              </div>
-            </div>
-          </div>
+
         </div>
 
       </div>
