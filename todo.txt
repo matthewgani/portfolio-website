@@ -18,3 +18,30 @@ maybe change to react router if i wanna show blogs
 
 
 jump to skills and projects not working well, i think bc i made skills div h-fit
+
+
+project list:
+6. 
+capstone
+cg3207
+cs2113t
+nus orbital 
+
+ee2026
+FPGA Digital Design Project 		Jan 2020 – April 2020
+    • Built a Sound Display and Entertainment System in a team of 2 using Verilog
+    • Implemented graphical visualization on an OLED RGB Display based on real-time audio
+    • Fostered creative thinking skills by constructing a visual game that required users to time and vary audio volume to win
+    • Facilitated project direction and enhanced communication skills
+  
+cg2271
+real time operating systems
+https://www.youtube.com/watch?v=iLDavXZqZ5o
+Worked in a group of 3 to create a Remote Controlled car controlled by a mobile app 
+Wrote code in C language on the FRDM-KL25Z microcontroller 
+Utilized semaphores and event flags for task synchronization
+Configured multithreading to manage car movement, music and LED patterns
+
+
+
+cg1111/cg1112 (prob wont put)

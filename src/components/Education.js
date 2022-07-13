@@ -36,6 +36,13 @@ const Education = () => {
                 </a>
               </li>
               <li>
+              NUS Orbital  
+                <a href='https://credentials.nus.edu.sg/24a23141-cf29-4563-8949-d074251b0610'
+                target="_blank" rel="noreferrer" className='underline text-blue-600'>
+                (Apollo 11)
+                </a>
+              </li>
+              <li>
                 Marketing Head for the ECE Club AY20/21 
               </li>
             </ul>
