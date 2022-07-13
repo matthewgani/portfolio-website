@@ -1,6 +1,9 @@
 import WorkImg from '../assets/workImg.jpeg'
 import realEstate from '../assets/realestate.jpg'
 import calendarManager from '../assets/calendarManager.jpg'
+import capstone from '../assets/capstone.jpeg'
+import scheduler from '../assets/scheduler.png'
+import ee2026 from '../assets/ee2026.jpg'
 
 const Projects = () => {
 
@@ -10,14 +13,14 @@ const Projects = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">Projects</p>
-          <p className="py-6 text-gray-300">Check out some of the projects I've done</p>
+          <p className="py-6 text-gray-300">Check out some of the projects I've done!</p>
         </div>
 
         {/* container*/}
         <div className="grid sm:grid-cols-2 gap-4">
 
           {/* capstone */}
-          <div style={{backgroundImage: `url(${WorkImg})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div style={{backgroundImage: `url(${capstone})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100 flex flex-col'>
@@ -74,7 +77,7 @@ components
 
 
           {/*  cs2113t*/}
-          <div style={{backgroundImage: `url(${WorkImg})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div style={{backgroundImage: `url(${scheduler})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100 flex flex-col justify-center items-center'>
@@ -135,7 +138,7 @@ team of 2
 
 
           {/* ee2026 */}
-          <div style={{backgroundImage: `url(${WorkImg})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
+          <div style={{backgroundImage: `url(${ee2026})`}} className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div">
             
             {/* hover effects */}
             <div className='opacity-0 group-hover:opacity-100 flex flex-col'>
@@ -151,16 +154,15 @@ team of 2
                 </li>
                 <li>
                 Fostered creative thinking skills by constructing a visual game that required users to time
-and vary audio volume to win
+and vary audio volume 
                 </li>
                 <li>
                 Facilitated project direction and enhanced communication skills
                 </li>
               </ul>
-              {/* <div className=' text-center'>
-                <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-sm'>demo</button></a>
-                <a href="/"> <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-sm'>code</button></a>
-              </div> */}
+              <div className=' text-center'>
+                <a href="https://docs.google.com/document/d/1FRZsYRh-V-aaFaDKW0oO6V1oVEBIuN7VMGO2sQVusXQ/edit?usp=sharing" target="_blank" rel="noreferrer"> <button className='text-center rounded-lg px-4 pt-0 pb-0 m-2 bg-white text-gray-700 font-bold text-xs'>documentation</button></a>
+              </div>
             </div>
           </div>
 
