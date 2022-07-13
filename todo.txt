@@ -4,44 +4,25 @@ react scroll
 
 
 not done:
-hooking up links to socials on the side bar
-  maybe the resume one will lead to a auto download
-putting real portfolio items in and skills logos
 maybe add night mode if its easy...
 canva my own logo
 insert my own data and re read whole website
-change some section names
 change color scheme
 maybe change to react router if i wanna show blogs
     Please is there a way to use both react-scroll and react-router-don on one project cause I’m trying to have an info button on the work session which will lead to another page to tell a little about the projects but it isn’t working
     Sure can!  Just set your css to html {scroll-behavior: smooth}. Then when you link you would do something like this <a href=‘/#contact’.
 
 
-jump to skills and projects not working well, i think bc i made skills div h-fit
+
+IMPORTANT TO FIX:
+1. jump to skills and projects not working well, i think bc i made skills div h-fit
+  the skills / project tab cant all fit in 100vh i think.. 
+  it is currently the way it is so that mobile / full screen wont get screwed up. at the cost of the kinda bad scroll to i guess.
+
+2. need to change the tutorial guy's logo / remove it 
+
+ > these 2 fixed by editing index.html
+3. need to change the favicon and website tab name (its react app rn)
+4.  when sending link on whatsapp, the preview has description saying created by react app 
 
 
-project list:
-6. 
-capstone
-cg3207
-cs2113t
-nus orbital 
-
-ee2026
-FPGA Digital Design Project 		Jan 2020 – April 2020
-    • Built a Sound Display and Entertainment System in a team of 2 using Verilog
-    • Implemented graphical visualization on an OLED RGB Display based on real-time audio
-    • Fostered creative thinking skills by constructing a visual game that required users to time and vary audio volume to win
-    • Facilitated project direction and enhanced communication skills
-  
-cg2271
-real time operating systems
-https://www.youtube.com/watch?v=iLDavXZqZ5o
-Worked in a group of 3 to create a Remote Controlled car controlled by a mobile app 
-Wrote code in C language on the FRDM-KL25Z microcontroller 
-Utilized semaphores and event flags for task synchronization
-Configured multithreading to manage car movement, music and LED patterns
-
-
-
-cg1111/cg1112 (prob wont put)
