@@ -19,10 +19,10 @@ IMPORTANT TO FIX:
   the skills / project tab cant all fit in 100vh i think.. 
   it is currently the way it is so that mobile / full screen wont get screwed up. at the cost of the kinda bad scroll to i guess.
 
-2. need to change the tutorial guy's logo / remove it 
+2. need to change the tutorial guy's logo / remove it (DONE)
 
  > these 2 fixed by editing index.html
-3. need to change the favicon and website tab name (its react app rn)
-4.  when sending link on whatsapp, the preview has description saying created by react app 
+3. need to change the favicon and website tab name (its react app rn) (DONE)
+4.  when sending link on whatsapp, the preview has description saying created by react app (DONE)
 
 

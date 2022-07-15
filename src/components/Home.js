@@ -15,7 +15,7 @@ const Home = () => {
         <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>Matthew Gani</h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>I'm an aspiring software engineer.</h2>
         <p className='text-[#8892b0] py-4 text-center'>
-          I am currently looking for work!
+          I am a Year 4 Computer Engineering student currently looking for work!
         </p>
 
         <div>
