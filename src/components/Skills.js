@@ -1,14 +1,9 @@
-
-
-
 import HTML from '../assets/html.png'
 import CSS from '../assets/css.png'
 import JavaScript from '../assets/javascript.png'
 import ReactImg from '../assets/react.png'
 import Node from '../assets/node.png'
 import FireBase from '../assets/firebase.png'
-import AWS from '../assets/aws.png'
-import TailWind from '../assets/tailwind.png'
 import Mongo from '../assets/mongo.png'
 import PSQL from '../assets/psql.png'
 import Express from '../assets/express.png'

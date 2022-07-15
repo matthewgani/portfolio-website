@@ -1,5 +1,3 @@
-import WorkImg from '../assets/workImg.jpeg'
-import realEstate from '../assets/realestate.jpg'
 import calendarManager from '../assets/calendarManager.jpg'
 import capstone from '../assets/capstone.jpeg'
 import scheduler from '../assets/scheduler.png'
