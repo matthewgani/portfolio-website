@@ -2,7 +2,7 @@ import ADSK from '../assets/autodesk.svg'
 
 const Work = () => {
   return (
-    <div name='work' className='w-full h-screen bg-[#0a192f] text-gray-300'>
+    <div name='work' className='w-full h-screen bg-[#0a192f] text-gray-300 pt-16'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
         <div className="max-w-[1000px] w-full flex justify-center items-center">
           {/* so text jumps to the right when screen gets small */}

@@ -11,7 +11,7 @@ const Projects = () => {
 
   return (
     // takes a lot of room on mobile so anything above Medium we display h screen
-    <div name='projects' className="w-full md:h-screen bg-[#0a192f]">
+    <div name='projects' className="w-full h-auto bg-[#0a192f] pt-16">
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="pb-8 text-center">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-pink-600">Projects</p>

@@ -19,6 +19,9 @@ IMPORTANT TO FIX:
   the skills / project tab cant all fit in 100vh i think.. 
   it is currently the way it is so that mobile / full screen wont get screwed up. at the cost of the kinda bad scroll to i guess.
 
+  his skills is h-screen and work is md:h-screen 
+
+
 2. need to change the tutorial guy's logo / remove it (DONE)
 
  > these 2 fixed by editing index.html
@@ -26,3 +29,4 @@ IMPORTANT TO FIX:
 4.  when sending link on whatsapp, the preview has description saying created by react app (DONE)
 
 
+5. maybe add footer
